@@ -1,9 +1,5 @@
 dir=protos/compiled
 
-if [ ! -d "$dir" ]; then
-    mkdir protos/compiled
-fi
-
 python -m grpc_tools.protoc \
 -Iprotos/spec \
 --python_out=protos/compiled \
