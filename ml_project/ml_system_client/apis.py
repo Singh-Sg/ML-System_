@@ -2,7 +2,7 @@ from ml_system_client import client
 from protos.compiled import ml_system_pb2, ml_system_pb2_grpc
 import grpc
 
-address = "172.17.0.1" # for docker
+address = "ml-system" # for docker
 # address = "127.0.0.1" # for local
 port = 50052
 
