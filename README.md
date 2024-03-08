@@ -1,7 +1,7 @@
 
 ## Installation
 
-Dillinger requires [Docker](https://www.docker.com/products/docker-desktop//) to run.
+This requires [Docker](https://www.docker.com/products/docker-desktop//) to run.
 
 Install the dependencies and devDependencies and start the server.
 
